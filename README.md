@@ -22,6 +22,8 @@ $ kubectl create -f rbac
 
 Agent manifest
 
+Update the `DD_API_KEY` env value before running:
+
 ```bash
 $ kubectl create -f agent.yaml
 ```
@@ -31,3 +33,4 @@ Verify DaemonSet
 ```bash
 $ kubectl get daemonset
 ```
+
