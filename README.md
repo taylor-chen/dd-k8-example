@@ -1,14 +1,23 @@
 # dd-k8-example
 
-Example project with k8
+The goal with this project is to demonstrate Datadog features on Kubernetes with boilerplate instrumentation.
 
 ## Local Dev
 
-### Using Minikube
+### What you need
 
-For local dev, use Minikube.
+- Minikube
+- Docker
+- Datadog account, a trial account is sufficient
 
-https://kubernetes.io/docs/tasks/tools/install-minikube/
+    - Get your API key. https://app.datadoghq.com/account/settings#api
+
+
+
+### Getting Started with Minikube
+
+For local dev, we are using Minikube.
+
 
 ```bash
 $ minikube start
